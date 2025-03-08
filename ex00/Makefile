@@ -2,9 +2,10 @@ CC = c++
 
 CC_FLAGS = -Wall -Werror -Wextra -std=c++98
 
-NAME = 
+NAME = ClapTrap
 
-SOURCES =
+SOURCES =	main.cpp \
+			ClapTrap.cpp
 
 OBJECTS = $(SOURCES:.cpp=.o)
 
