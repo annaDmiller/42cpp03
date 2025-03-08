@@ -74,7 +74,7 @@ int main(void)
         second.beRepaired(10);
 
         std::cout << std::endl;
-        second.highFiveGuys();
+        second.highFivesGuys();
 
         std::cout << std::endl;
         for (int i = 0; i < 100; i++)
@@ -89,6 +89,11 @@ int main(void)
         std::cout << "Assigning FragTrap..." << std::endl;
         FragTrap assignedScav = first;
         assignedScav.attack("Another Target");
+
+        std::cout << std::endl;
+        second.takeDamage(100);
+        second.beRepaired(10);
+        second.attack("First");
 
         std::cout << std::endl;
     }
