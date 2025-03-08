@@ -2,9 +2,12 @@ CC = c++
 
 CC_FLAGS = -Wall -Werror -Wextra -std=c++98
 
-NAME = 
+NAME = FragTrap
 
-SOURCES =
+SOURCES =	main.cpp \
+			ClapTrap.cpp \
+			ScavTrap.cpp \
+			FragTrap.cpp
 
 OBJECTS = $(SOURCES:.cpp=.o)
 
