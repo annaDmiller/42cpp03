@@ -23,6 +23,11 @@ int main(void)
             first.attack("Shane");
 
         std::cout << std::endl;
+        second.takeDamage(100);
+        second.beRepaired(10);
+        second.attack("First");
+    
+        std::cout << std::endl;
     }
     std::cout << "-----------------------------------------------------" << std::endl;
     std::cout << "SCAVTRAP TEST" << std::endl;
@@ -55,6 +60,11 @@ int main(void)
         std::cout << "Assigning ScavTrap..." << std::endl;
         ScavTrap assignedScav = first;
         assignedScav.attack("Another Target");
+
+        std::cout << std::endl;
+        second.takeDamage(100);
+        second.beRepaired(10);
+        second.attack("First");
 
         std::cout << std::endl;
     }
