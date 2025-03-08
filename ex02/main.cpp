@@ -39,7 +39,7 @@ int main(void)
         first.attack("Second");
 
         std::cout << std::endl;
-        second.takeDamage(first.getDamage());
+        second.takeDamage(20);
 
         std::cout << std::endl;
         second.beRepaired(10);
@@ -78,7 +78,7 @@ int main(void)
         first.attack("Second");
 
         std::cout << std::endl;
-        second.takeDamage(first.getDamage());
+        second.takeDamage(30);
 
         std::cout << std::endl;
         second.beRepaired(10);

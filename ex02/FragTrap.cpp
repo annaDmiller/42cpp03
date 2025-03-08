@@ -3,18 +3,18 @@
 FragTrap::FragTrap(void) : ClapTrap()
 {
     std::cout << "FragTrap: default constructor is called" << std::endl;
-    this->setHealth(100);
-    this->setEnergy(100);
-    this->setDamage(30);
+    this->_hp = 100;
+    this->_energy = 100;
+    this->_attack_dmg = 30;
     return ;
 }
 
 FragTrap::FragTrap(std::string name) : ClapTrap(name)
 {
     std::cout << "FragTrap: Constructor with string as a parameter is called" << std::endl;
-    this->setHealth(100);
-    this->setEnergy(100);
-    this->setDamage(30);
+    this->_hp = 100;
+    this->_energy = 100;
+    this->_attack_dmg = 30;
     return ;
 }
 
