@@ -14,12 +14,12 @@ class DiamondTrap : public ScavTrap, public FragTrap
     public:
         DiamondTrap(void);
         DiamondTrap(std::string name);
-        ~DiamondTrap(void);
+        virtual ~DiamondTrap(void);
         DiamondTrap(const DiamondTrap& other);
         DiamondTrap& operator=(const DiamondTrap& other);
 
         void whoAmI(void);
-        void attack(const std::string &target);
+        virtual void attack(const std::string &target);
 };
 
 #endif
